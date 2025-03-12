@@ -3,7 +3,7 @@
 
 #include <X11/Xlib.h>
 
-void placeholder(void);
+void     placeholder(void);
 Display* get_display(void);
 
 #endif

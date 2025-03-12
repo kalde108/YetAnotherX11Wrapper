@@ -110,7 +110,7 @@ re : fclean
 run : $(NAME)
 	./$(NAME)
 
-CLANG_FORMAT_SOURCES := $(addprefix $(SRCS_DIR), $(SRCS)) $(shell find $(INCS_DIR) -type f -name '*.hpp')
+CLANG_FORMAT_SOURCES := $(addprefix $(SRCS_DIR), $(SRCS)) $(shell find $(INCS_DIR) -type f -name '*.h')
 
 .PHONY : check-format
 check-format :
